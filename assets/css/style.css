@@ -321,7 +321,7 @@ main {
   transition: var(--transition-2);
 }
 
-.sidebar.active { max-height: 405px; }
+.sidebar.active { max-height: 455px; }
 
 .sidebar-info {
   position: relative;
@@ -731,8 +731,8 @@ main {
 .clients-list {
   display: flex;
   justify-content: flex-start;
-  align-items: flex-start;
-  gap: 15px;
+  align-items: center;
+  gap: 40px;
   margin: 0 -15px;
   padding: 25px;
   padding-bottom: 25px;
@@ -746,6 +746,7 @@ main {
 .clients-item {
   min-width: 50%;
   scroll-snap-align: start;
+  align-items: center;
 }
 
 .clients-item img {
@@ -1235,7 +1236,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 
 @media (min-width: 450px) {
 
-  /**
+  .sidebar, article { width: 400px; }
    * client
    */
 
